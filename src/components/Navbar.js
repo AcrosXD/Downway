@@ -9,7 +9,7 @@ const Navbar = () => {
 
         <div className="wrapper hover_collapse">
             <div className="top_navbar">
-                <div className="logo">Coding<span>Market</span></div>
+                <div className="logo">Downway</div>
                 <div className="menu">
                     <div className="hamburger">
                         <i className="fas fa-bars"></i>
