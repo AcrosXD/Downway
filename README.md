@@ -5,7 +5,7 @@ A new solution to share and host your movies quickly and efficiently.
 For create a server and host it you can download the server pack and configure it. For any help please READ the readme before creating an issue
 > *coming soon*
 
-## Want to contributehj
+## Want to contribute
 
 - You can simply [fork the project](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) and send your contribution or [clone the repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) :
 
