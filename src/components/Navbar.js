@@ -17,7 +17,7 @@ const Navbar = () => {
                     <div className="profile_wrap">
                         <div className="profile">
                             <img src="profile.png" alt="profile_pic" />
-                                <span className="name">Alex John</span>
+                                <span className="name">username</span>
                                 <span className="icon">
 						<i className="fas fa-angle-down"></i>
 					</span>
