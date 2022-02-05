@@ -6,8 +6,9 @@ const SearchBar = (props) => {
     return(
             <div className="re">
             <div className="searchInputs">
-                <form action="" onSubmit={props.handleSubmit}></form>
-                <input type="text" placeholder="Recherche..." onChange={props.handleChange}></input>
+                <form action="" onSubmit={props.handleSubmit}>
+                    <input type="text" placeholder="Recherche..." onChange={props.handleChange}/>
+                </form>
             </div>
             </div>
     )

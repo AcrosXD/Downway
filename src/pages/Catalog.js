@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import SearchBar from "../components/SearchBar";
-import {Component} from "react";
+import React, {Component} from "react";
+import MovieList from "../components/MovieList";
 
 class Catalog extends Component {
     constructor() {
@@ -16,7 +17,7 @@ class Catalog extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
 
-        fetch(`https://api.themoviedb.org/3/search/movie?api_key=${this.apiKey}&query=${this.state.searchTerm}`)
+        fetch(`https://api.themoviedb.org/3/search/movie?api_key=apiKey&query=${this.state.searchTerm}`)
             .then(data => data.json())
             .then(data => {
                 console.log(data);
@@ -33,6 +34,7 @@ class Catalog extends Component {
             <body>
             <Navbar/>
             <SearchBar handleSubmit={this.handleSubmit} handleChange={this.handleChange} />
+            <MovieList movies={this.state.movies} />
             </body>
         )
     }
