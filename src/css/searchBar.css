@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;600&display=swap');
+
+.barBox{
+}
+
+.searchInputs{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.re input{
+    background:#0C0D14;
+    border: #EF5975;
+    border: 8px;
+    border-radius: 24px;
+    font-size: 18px;
+    padding:25px;
+    height: 30px;
+    width: 600px;
+    color: white;
+}
+
+.icon {
+    align-self: center;
+    margin-left: -35px;
+}

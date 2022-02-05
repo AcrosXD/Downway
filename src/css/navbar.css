@@ -26,6 +26,21 @@
     text-align: center;
     color:crimson;
 }
+.navItem ul li{
+    padding: 15px;
+}
+.navItem ul li:hover{
+    background: #13141f;
+}
+
+navItem li {
+    align-items: center;
+}
+
+.navItem ul li a i{
+    margin-right: 15px;
+    width: 25px;
+}
 
 .navItem{
     text-decoration: none;

@@ -6,8 +6,8 @@ import "https://kit.fontawesome.com/b99e675b6e.js"
 const Navbar = () => {
     return(
         <div className="navItem navbarBox">
+            <p>Downway</p>
             <ul>
-                <p>Downway</p>
                 <NavLink exact to="/dashboard">
                     <li><i className="fas fa-home fa-2x"><a> Home</a></i></li>
                 </NavLink>
@@ -24,6 +24,7 @@ const Navbar = () => {
                     <li><i className="fas fa-user fa-2x"><a> Profile</a></i></li>
                 </NavLink>
             </ul>
+
         </div>
     )
 }
